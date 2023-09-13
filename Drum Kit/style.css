@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+
+.key {
+    padding: 15px;
+    background-color: aqua;
+    transition: all .5s ease;
+}
+
+.keypress {
+    transform: scale(1.1);
+}
